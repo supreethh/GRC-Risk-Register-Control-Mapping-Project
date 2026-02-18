@@ -73,7 +73,7 @@ This ensured alignment with internationally recognized information security mana
 ## Files Included
 
 - `Risk Register.xlsx` – Core risk register with scoring, control mapping, and treatment tracking  
-- `Screenshots/` – Visual overview of risk prioritization and governance structure  
+- `Risk Register.pdf` – Visual overview of risk prioritization and governance structure  
 
 ---
 
