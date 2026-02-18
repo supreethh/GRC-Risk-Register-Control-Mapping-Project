@@ -1,86 +1,87 @@
-# GRC Risk Register & Control Mapping Project
+# GRC Risk Register & ISO 27001 Control Mapping Project
 
 ## Overview
 
-This project demonstrates a practical Governance, Risk, and Compliance (GRC) risk assessment for a simulated SaaS web application environment. The objective was to identify key security risks, evaluate their potential business impact, assess existing controls, and prioritize mitigation actions using a structured risk register.
+This project demonstrates a practical Governance, Risk, and Compliance (GRC) risk assessment for a simulated SaaS web application environment. The objective was to identify key security risks, evaluate their potential business impact, assess existing controls, and prioritize mitigation actions using a structured risk register aligned with ISO/IEC 27001.
 
-The risk scenarios were informed by observed authentication abuse and system behavior detected during a separate SOC-style log analysis project, creating a realistic link between security operations and risk management.
+The risk scenarios were informed by authentication abuse and system behavior identified during a separate SOC-style log analysis project, creating a realistic linkage between security operations and governance-based risk management.
 
 ---
 
 ## Environment Scope
 
-The simulated organization operates a cloud-hosted web application that includes:
+The simulated organization operates a cloud-hosted web application including:
 
-- User authentication and session management system  
+- User authentication and session management systems  
 - Administrative management portal with elevated privileges  
-- Customer database containing personal information  
-- Cloud application servers and infrastructure  
-- Centralized logging and monitoring system  
-- Third-party service integrations (email, analytics, payment processing)
+- Cloud-hosted application servers and infrastructure  
+- Centralized logging and monitoring platform  
+- Identity and access management processes  
+- Incident response workflows  
 
 ---
 
 ## Risk Assessment Methodology
 
-Each risk was evaluated using a structured approach:
+Each identified risk was evaluated using a structured risk management approach:
 
-- **Likelihood (1–5):** Probability of the risk occurring  
-- **Impact (1–5):** Business, operational, and security impact if realized  
+- **Likelihood (1–5):** Probability of occurrence  
+- **Impact (1–5):** Business, operational, and security impact  
 - **Inherent Risk Score:** Likelihood × Impact  
 - **Control Effectiveness (1–5):** Strength of existing controls  
-- **Residual Risk Score:** Inherent Risk minus control effectiveness  
+- **Residual Risk Score:** Inherent risk minus control effectiveness  
 
-Risks were categorized as **High**, **Medium**, or **Low** based on residual exposure.
-
----
-
-## Control Framework Reference
-
-Mitigation controls were aligned with principles from the **NIST Cybersecurity Framework (CSF)**:
-
-- Identify  
-- Protect  
-- Detect  
-- Respond  
-
-This ensured governance-focused risk management rather than purely technical remediation.
+Residual risk levels were categorized as **High**, **Medium**, or **Low** to support prioritization and treatment planning.
 
 ---
 
-## Key Risk Areas Covered
+## Control Framework Alignment
 
-- Authentication abuse and brute-force attacks  
-- Excessive privilege access  
-- Customer data exposure  
-- Insufficient monitoring and alerting  
-- Patch management gaps  
-- Third-party security dependencies  
+Risk mitigation controls were mapped to **ISO/IEC 27001:2022 Annex A**, including:
+
+- Access control and identity management  
+- Secure authentication mechanisms  
+- Logging and monitoring activities  
+- Incident response governance  
+- Risk management and compliance oversight  
+
+This ensured alignment with internationally recognized information security management standards.
+
+---
+
+## Key Risk Areas Addressed
+
+- Brute-force and credential reuse attacks  
+- Privileged account compromise  
+- Infrastructure-level authentication weaknesses  
+- Insufficient security monitoring and detection  
+- Incident response maturity gaps  
+- Risk governance and review processes  
 
 ---
 
 ## Project Outcomes
 
-- Created a structured asset inventory and risk register  
-- Prioritized high-impact security risks  
-- Mapped mitigation controls to governance frameworks  
-- Defined treatment strategies and review cycles  
-
-This project reflects real-world GRC workflows used to translate security threats into business-focused risk management actions.
+- Developed an ISO-aligned enterprise risk register  
+- Evaluated inherent and residual risk exposure  
+- Mapped risks to applicable ISO 27001 controls  
+- Defined mitigation strategies and treatment plans  
+- Established governance review cycles and ownership  
 
 ---
 
 ## Files Included
 
-- `Risk Register.xlsx` – Core risk register with scoring and control mapping  
-- `Screenshots/` – Risk overview and prioritization visuals  
+- `Risk Register.xlsx` – Core risk register with scoring, control mapping, and treatment tracking  
+- `Screenshots/` – Visual overview of risk prioritization and governance structure  
 
 ---
 
 ## Skills Demonstrated
 
-- Risk assessment and prioritization  
-- Control evaluation and mitigation planning  
-- Governance framework alignment (NIST CSF)  
-- Translating security operations into GRC risk processes  
-- Documentation and reporting
+- ISO 27001 risk assessment and control mapping  
+- Governance-focused risk analysis  
+- Control effectiveness evaluation  
+- Security operations to GRC translation  
+- Risk treatment planning and lifecycle tracking  
+- Documentation and reporting  
