@@ -72,7 +72,7 @@ This project reflects real-world GRC workflows used to translate security threat
 
 ## Files Included
 
-- `Risk_Register.xlsx` – Core risk register with scoring and control mapping  
+- `Risk Register.xlsx` – Core risk register with scoring and control mapping  
 - `Screenshots/` – Risk overview and prioritization visuals  
 
 ---
