@@ -73,7 +73,8 @@ This ensured alignment with internationally recognized information security mana
 ## Files Included
 
 - `Risk Register.xlsx` – Core risk register with scoring, control mapping, and treatment tracking  
-- `Risk Register.pdf` – Visual overview of risk prioritization and governance structure  
+- `Risk Register.pdf` – Visual overview of risk prioritization and governance structure
+- `IR_Playbook_BruteForce.docx` – Incident response playbook for brute force attacks, aligned with NIST SP 800-61 lifecycle phases and MITRE ATT&CK framework.
 
 ---
 
@@ -84,4 +85,5 @@ This ensured alignment with internationally recognized information security mana
 - Control effectiveness evaluation  
 - Security operations to GRC translation  
 - Risk treatment planning and lifecycle tracking  
-- Documentation and reporting  
+- Documentation and reporting
+- Incident response documentation and playbook development  
